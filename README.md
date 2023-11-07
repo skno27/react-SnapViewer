@@ -1,3 +1,12 @@
+Here, I have created a react app to let me easily view my snapchat data
+Inside of public, the manage.py script is ran to unzip and organize all files
+My next scripts are inside the main directory
+generateImageList.js will create a .json file with href tokens to parse through for chat media file locations
+generateMemoryList.js will do the same, but this time for memories media files.
+Please fork and add your own snap-data, and let me know what you think!
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
