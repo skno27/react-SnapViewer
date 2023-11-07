@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,14 +14,116 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+
+button {
+  border: 1px solid black;
+  margin: 10px;
+  width: 200px;
+  border-radius: 10px;
+  background-color:aliceblue;
+  color: black
+}
+
+button:hover {
+  background-color: gray;
+  border: 1px solid #ccc;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option-div {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  overflow-x: hidden;
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.messages {
+  color: black;
+  width: 80%;
+  margin-top: 20px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+
+}
+
+
+.message {
+  border-top: 1px solid black;
+  padding: 50px;
+  font-size: large;
+  margin: 20px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.media ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media li {
+  margin: 10px;
+}
+
+.memories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.memories ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memories li {
+  margin: 10px;
+  border-top: 1px solid black;
+}
+
+.heading {
+  font-size: 5rem;
+  color: black;
+  margin-bottom: 30px;
 }

@@ -34,3 +34,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# snapchat data
+/public/extracted/chat_media
+/public/extracted/html
+/public/extracted/json
+/public/extracted/memories
+/public/extracted/index.html
+
+/mediaUrls.json
+/memoryUrls.json
